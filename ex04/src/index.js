@@ -1,11 +1,11 @@
 // Only change code below this line
-const MILILI = [10, 25, 4];
+const milili = [10, 25, 4];
   // Using mili = [4, 10, 25] would be invalid
 function myArr(mili) {
   "use strict";
-  MILILI.unshift(MILILI.pop());
+  milili.unshift(milili.pop());
   return mili;
 }
-console.log(myArr(MILILI));
+console.log(myArr(milili));
   // Only change code above this line
 module.exports = myArr;
