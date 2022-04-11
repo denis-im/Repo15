@@ -1,5 +1,5 @@
 // Only change code below this line
-var arena = () => {
+const arena = () => {
 // Only change code above this line
   "use strict";
   return new Date();
