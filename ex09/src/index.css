@@ -74,32 +74,39 @@ footer {
   left: 0;
   width: 100%;
   height: 50px;
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
   background-color: lightgray;
   border-color: darkgrey;
   border-width: 2px;
-  justify-content: space-around;
 }
 
 .footer-right {
-  /* justify-content: right; */
-  display: flex;
+  float: right;
 }
 
 .footer-left {
-  /* justify-content: left; */
-  display: flex;
+
+  float: left;
 }
 
 footer li {
   padding: 0px 8px 0px 8px;
 } 
 
+footer ul {
+  float: left;
+  padding: 1px;
+}
+
+footer ul li {
+  display: inline;
+  color: #666666;
+  font-size: 14px;
+  padding: 13px;
+}
+
+
 div {
   vertical-align: middle;
-  /* margin: auto; */
   display: flex;
   justify-content: center;
   align-items: center;
